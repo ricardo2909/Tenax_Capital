@@ -105,7 +105,7 @@ def obter_dados_cpi(series_id, start_year='2013', end_year='2023',token = ''):
 def main():
     st.title('Relatório de CPI')
 
-    token = st.text_input('Digite o token de acesso à API', value='bdaf72c472424c91b17c066cf91ee8cc')
+    token = st.text_input('Digite o token de acesso à API')
 
     todas_opcoes = ['All items', 'All items less food and energy', 'Food', 'Energy', 'Apparel', 'Education and communication', 'Other goods and services', 'Medical care', 'Recreation', 'Transportation']
 
