@@ -1,18 +1,9 @@
-import matplotlib.pyplot as plt
-import matplotlib.dates as mdates
 import requests
 import pandas as pd
-import numpy as np
-import datetime
-import dash
-from datetime import timedelta
-from dash import Dash, dcc, html, Input, Output
 import plotly.express as px
-from plotly import graph_objs as go
 from pandas.tseries.offsets import MonthEnd
 import streamlit as st
 import io
-import openpyxl
 from openpyxl.chart import LineChart, Reference
 
 
